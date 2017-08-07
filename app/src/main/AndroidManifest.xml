@@ -23,7 +23,7 @@
     </application>
 
     <instrumentation
-        android:name="android.support.test.runner.AndroidJUnitRunner"
+        android:name="android.support.test.runner.AndroidJUnit4"
         android:targetPackage="com.example.mobilecenter.sampleapp_android" />
 
 </manifest>
