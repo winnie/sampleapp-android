@@ -19,5 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <uses-library android:name="android.test.runner" />
     </application>
+
+    <instrumentation
+        android:name="android.support.test.runner.AndroidJUnitRunner"
+        android:targetPackage="com.example.mobilecenter.sampleapp_android" />
+
 </manifest>
